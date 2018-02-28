@@ -13,7 +13,7 @@ namespace SOLID_Principles.SRP
     }
 
     interface ILogger
-    {
+    { 
         void LogError(string error);
     }
 
