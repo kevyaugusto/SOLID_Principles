@@ -43,11 +43,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="4-I\Correct\CanonPrinter.cs" />
+    <Compile Include="4-I\Correct\HPPrinter.cs" />
+    <Compile Include="4-I\Correct\Interfaces\IPrinterDuplexOperations.cs" />
+    <Compile Include="4-I\Correct\Interfaces\IPrinterFaxOperations.cs" />
+    <Compile Include="4-I\Correct\Interfaces\IPrinterScanOperations.cs" />
+    <Compile Include="4-I\Wrong\CanonPrinter.cs" />
+    <Compile Include="4-I\Wrong\HPPrinter.cs" />
+    <Compile Include="4-I\Wrong\Interfaces\IPrinterOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="1-S\IUser.cs" />
+    <Compile Include="1-S\IUserWrong.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1-S\SRP-README.txt" />
+    <Content Include="3-L\LSP-README.txt" />
+    <Content Include="4-I\ISP-README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2-O\" />
+    <Folder Include="5-D\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
