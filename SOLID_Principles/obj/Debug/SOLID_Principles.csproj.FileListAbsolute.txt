@@ -1,6 +1,0 @@
-D:\Bitbucket\SOLID_Principles\SOLID_Principles\bin\Debug\SOLID_Principles.exe.config
-D:\Bitbucket\SOLID_Principles\SOLID_Principles\bin\Debug\SOLID_Principles.exe
-D:\Bitbucket\SOLID_Principles\SOLID_Principles\bin\Debug\SOLID_Principles.pdb
-D:\Bitbucket\SOLID_Principles\SOLID_Principles\obj\Debug\SOLID_Principles.csprojResolveAssemblyReference.cache
-D:\Bitbucket\SOLID_Principles\SOLID_Principles\obj\Debug\SOLID_Principles.exe
-D:\Bitbucket\SOLID_Principles\SOLID_Principles\obj\Debug\SOLID_Principles.pdb
