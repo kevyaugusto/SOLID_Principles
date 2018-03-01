@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2-O\Correct\Employee.cs" />
+    <Compile Include="2-O\Correct\PermanentEmployee.cs" />
+    <Compile Include="2-O\Correct\TemporaryEmployee.cs" />
+    <Compile Include="2-O\Wrong\Employee.cs" />
+    <Compile Include="3-L\Abstracts\Employee.cs" />
+    <Compile Include="3-L\Implementations\ContractEmployee.cs" />
+    <Compile Include="3-L\Implementations\PermanentEmployee.cs" />
+    <Compile Include="3-L\Implementations\TemporaryEmployee.cs" />
+    <Compile Include="3-L\Interfaces\IEmployee.cs" />
+    <Compile Include="3-L\Interfaces\IEmployeeBonus.cs" />
+    <Compile Include="3-L\Program.cs" />
     <Compile Include="4-I\Correct\CanonPrinter.cs" />
     <Compile Include="4-I\Correct\HPPrinter.cs" />
     <Compile Include="4-I\Correct\Interfaces\IPrinterDuplexOperations.cs" />
@@ -51,6 +62,14 @@
     <Compile Include="4-I\Wrong\CanonPrinter.cs" />
     <Compile Include="4-I\Wrong\HPPrinter.cs" />
     <Compile Include="4-I\Wrong\Interfaces\IPrinterOperations.cs" />
+    <Compile Include="5-D\ConsoleReader.cs" />
+    <Compile Include="5-D\ConsoleWriter.cs" />
+    <Compile Include="5-D\CopyProcess.cs" />
+    <Compile Include="5-D\FileWriter.cs" />
+    <Compile Include="5-D\IReader.cs" />
+    <Compile Include="5-D\IWriter.cs" />
+    <Compile Include="5-D\Program.cs" />
+    <Compile Include="5-D\ReadResult.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1-S\IUser.cs" />
@@ -61,13 +80,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1-S\SRP-README.txt" />
+    <Content Include="2-O\OCP-README.txt" />
     <Content Include="3-L\LSP-README.txt" />
     <Content Include="4-I\ISP-README.txt" />
+    <Content Include="5-D\DIP-README.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="2-O\" />
-    <Folder Include="5-D\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
